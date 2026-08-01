@@ -8,6 +8,7 @@ class Solution {
             if(nums[i]+1==nums[i+1]){
                 count++;
             }
+            //checking and continuing the loop for duplicate
             else if(nums[i]==nums[i+1]){
                 continue;
             }
